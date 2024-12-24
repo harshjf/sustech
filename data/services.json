@@ -1,0 +1,316 @@
+{
+  "Solar Energy": [
+    {
+      "name": "solar-power-solutions",
+      "image": "/images/services/1.png",
+      "color": "rgb(254, 105, 30)",
+      "detailsTitle": "Solar for Residential and Industrial Use",
+      "title": "Solar Power Solutions",
+      "delay": "0ms",
+      "overview": "Solar Power Solutions encompass the installation of cutting-edge solar panels, solar water heaters, and street lighting systems designed for maximum efficiency and durability. These solutions cater to residential, commercial, and industrial sectors, offering reliable and sustainable energy alternatives. Hybrid solar systems ensure uninterrupted power supply by integrating solar energy with grid electricity, enhancing energy security and reducing dependency on fossil fuels.",
+      "leftBenefits": [
+        "Eco-friendly energy solutions for a sustainable future.",
+        "Low installation and operational costs.",
+        "Durable and long-lasting solar panel technology."
+      ],
+      "rightBenefits": [
+        "Reduced electricity bills through renewable energy.",
+        "Government incentives for solar system installation.",
+        "Smart energy management with hybrid systems."
+      ],
+      "processes": [
+        {
+          "title": "Consultation and Design",
+          "description": "Our expert team conducts site surveys and energy requirement assessments to design a solar solution tailored to your needs."
+        },
+        {
+          "title": "Professional Installation",
+          "description": "We ensure seamless installation using the highest quality materials and adhering to industry standards for safety and efficiency."
+        },
+        {
+          "title": "Post-Installation Support",
+          "description": "Ongoing maintenance and support services ensure optimal system performance and longevity."
+        }
+      ],
+      "description": "We offer efficient and sustainable solar power solutions to reduce energy costs and environmental impact.",
+      "overviewTagline": "Harness the power of the sun to illuminate your world sustainably."
+    },
+    {
+      "name": "solar-project-development",
+      "image": "/images/services/2.png",
+      "detailsTitle": "Large-Scale Solar Solutions",
+      "title": "Solar Project Development",
+      "delay": "0ms",
+      "overview": "Solar Project Development involves comprehensive services for large-scale solar power plant development. From conducting feasibility studies to energy yield analysis, our team ensures every project meets the highest standards of quality and efficiency. Site assessments and regulatory compliance are meticulously managed to deliver reliable solar infrastructure for urban and rural applications.",
+      "leftBenefits": [
+        "Turnkey solutions for solar plant development.",
+        "Accurate feasibility and site analysis.",
+        "Custom solar solutions for diverse applications."
+      ],
+      "rightBenefits": [
+        "Efficient energy yield optimization.",
+        "Seamless project management and execution.",
+        "Compliance with local and international standards."
+      ],
+      "processes": [
+        {
+          "title": "Feasibility Studies",
+          "description": "Our experts conduct detailed studies to evaluate the technical and economic viability of solar projects at proposed sites."
+        },
+        {
+          "title": "Regulatory Approvals",
+          "description": "We manage all regulatory and legal approvals, ensuring your project complies with environmental and governmental policies."
+        },
+        {
+          "title": "Project Execution and Handover",
+          "description": "Our team handles everything from design to commissioning, delivering projects on time and within budget."
+        }
+      ],
+      "description": "We handle end-to-end development of solar projects, from feasibility to installation, ensuring reliable and efficient energy production.",
+      "overviewTagline": "Building a sustainable future one solar project at a time."
+    },
+    {
+      "name": "solar-maintenance-energy-storage",
+      "image": "/images/services/3.png",
+      "detailsTitle": "Solar System Longevity and Efficiency",
+      "title": "Solar Maintenance and Energy Storage",
+      "delay": "0ms",
+      "overview": "Solar Maintenance and Energy Storage services ensure the longevity and efficiency of your solar systems. With regular maintenance, cleaning, and repair services, your solar panels remain in optimal condition. Energy storage solutions like advanced solar batteries provide uninterrupted power, enabling you to store excess energy for future use and maintain energy independence.",
+      "leftBenefits": [
+        "Scheduled maintenance to ensure peak performance.",
+        "Advanced solar batteries for uninterrupted energy.",
+        "Professional cleaning and repair services."
+      ],
+      "rightBenefits": [
+        "Increased lifespan of solar equipment.",
+        "Energy independence through efficient storage.",
+        "Minimized downtime and operational disruptions."
+      ],
+      "processes": [
+        {
+          "title": "Routine Maintenance",
+          "description": "Our team performs regular inspections, cleaning, and minor repairs to keep your solar system running efficiently."
+        },
+        {
+          "title": "Energy Storage Installation",
+          "description": "We provide advanced solar batteries and integrate them seamlessly with your existing systems to store excess energy."
+        },
+        {
+          "title": "Emergency Support",
+          "description": "Our quick-response team addresses any issues to minimize downtime and restore functionality promptly."
+        }
+      ],
+      "description": "We provide comprehensive solar maintenance and energy storage solutions to ensure maximum performance and reliability.",
+      "overviewTagline": "Maximizing solar efficiency with innovative storage solutions and expert maintenance."
+    }
+  ],
+  "Wind Energy": [
+    {
+      "name": "wind-energy-infrastructure",
+      "image": "/images/services/4.png",
+      "color": "#028a0f",
+      "detailsTitle": "Wind Energy Infrastructure Solutions",
+      "title": "Wind Energy Infrastructure",
+      "delay": "0ms",
+      "overview": "Wind Energy Infrastructure focuses on the installation of high-performance wind turbines and hybrid energy systems. Our services include comprehensive site assessments to evaluate wind potential, ensuring optimal energy generation and cost-effectiveness. These solutions cater to residential, commercial, and industrial sectors seeking sustainable and renewable energy sources.",
+      "leftBenefits": [
+        "Precision-engineered wind turbine installation.",
+        "Seamless integration of hybrid energy systems.",
+        "Tailored solutions for diverse energy needs."
+      ],
+      "rightBenefits": [
+        "Maximized energy output with optimized turbine placement.",
+        "Environmentally friendly power generation.",
+        "Reduced reliance on traditional energy sources."
+      ],
+      "processes": [
+        {
+          "title": "Site Assessment and Analysis",
+          "description": "Our team conducts detailed wind potential studies and site evaluations to identify the best locations for wind energy systems."
+        },
+        {
+          "title": "System Design and Planning",
+          "description": "Customized infrastructure designs are created to maximize energy generation while minimizing costs."
+        },
+        {
+          "title": "Installation and Commissioning",
+          "description": "We handle the installation of turbines and hybrid systems with precision, followed by thorough testing to ensure optimal performance."
+        }
+      ],
+      "description": "We provide efficient and scalable wind energy infrastructure solutions for clean and sustainable power generation.",
+      "overviewTagline": "Harness the power of the wind to drive sustainable energy solutions."
+    },
+    {
+      "name": "wind-farm-development-operations",
+      "image": "/images/services/5.png",
+      "detailsTitle": "Comprehensive Wind Farm Services",
+      "title": "Wind Farm Development and Operations",
+      "delay": "0ms",
+      "overview": "Wind Farm Development and Operations involve end-to-end services for the design, construction, and management of wind farms. Our team conducts feasibility studies, implements innovative energy storage systems, and ensures regulatory compliance. From small-scale installations to large wind farms, we provide reliable and efficient solutions for renewable energy generation.",
+      "leftBenefits": [
+        "Turnkey wind farm development solutions.",
+        "Thorough feasibility and site studies.",
+        "Innovative energy storage integration."
+      ],
+      "rightBenefits": [
+        "Optimized design for maximum efficiency.",
+        "Reliable operations and maintenance services.",
+        "Compliance with environmental and safety standards."
+      ],
+      "processes": [
+        {
+          "title": "Feasibility Studies and Planning",
+          "description": "We evaluate technical and financial feasibility, ensuring each wind farm project meets the highest standards."
+        },
+        {
+          "title": "Construction and Installation",
+          "description": "Our team oversees the entire construction process, delivering wind farms that are both efficient and cost-effective."
+        },
+        {
+          "title": "Operations and Monitoring",
+          "description": "We provide ongoing management, monitoring, and optimization of wind farm performance to maximize energy output."
+        }
+      ],
+      "description": "We specialize in developing and managing wind farms to generate renewable energy efficiently and sustainably.",
+      "overviewTagline": "Powering a sustainable tomorrow with cutting-edge wind farm solutions."
+    },
+    {
+      "name": "wind-turbine-maintenance-repairs",
+      "image": "/images/services/6.png",
+      "detailsTitle": "Optimizing Wind Turbine Performance",
+      "title": "Wind Turbine Maintenance and Repairs",
+      "delay": "0ms",
+      "overview": "Wind Turbine Maintenance and Repairs are essential to ensuring peak performance and longevity of wind energy systems. Our services include regular maintenance, blade repair, and advanced troubleshooting to minimize downtime. With expert turbine optimization, we help clients maximize their energy generation and overall system efficiency.",
+      "leftBenefits": [
+        "Comprehensive turbine inspection and maintenance.",
+        "Blade repair and structural integrity checks.",
+        "Advanced troubleshooting for all turbine components."
+      ],
+      "rightBenefits": [
+        "Increased energy output and system reliability.",
+        "Minimized downtime and operational costs.",
+        "Extended lifespan of wind turbines."
+      ],
+      "processes": [
+        {
+          "title": "Routine Inspections",
+          "description": "Our experts perform detailed inspections to identify wear and tear, ensuring timely maintenance and repairs."
+        },
+        {
+          "title": "Blade Repair and Replacement",
+          "description": "We provide efficient blade repair services, addressing damage and improving aerodynamic performance."
+        },
+        {
+          "title": "Optimization and Upgrades",
+          "description": "Our team optimizes turbine operations and implements upgrades to enhance overall performance."
+        }
+      ],
+      "overviewTagline": "Keeping your wind turbines running smoothly for a greener future."
+    }
+  ],
+  "Hydro Electric Energy": [
+    {
+      "name": "hydropower-infrastructure-development",
+      "image": "/images/services/7.png",
+      "color": "#00308f",
+      "detailsTitle": "Hydropower Infrastructure Services",
+      "title": "Hydropower Infrastructure Development",
+      "delay": "0ms",
+      "overview": "Hydropower Infrastructure Development focuses on building large-scale hydroelectric plants, small hydropower installations, and eco-friendly energy systems. These projects harness the power of flowing water to generate clean, renewable energy, offering a sustainable solution for communities and industries alike.",
+      "leftBenefits": [
+        "Custom design and construction of hydroelectric plants.",
+        "Eco-friendly small hydropower installations.",
+        "Energy solutions tailored to local resources and needs."
+      ],
+      "rightBenefits": [
+        "Sustainable energy generation with minimal environmental impact.",
+        "Reliable and long-lasting infrastructure.",
+        "Support for community-level energy independence."
+      ],
+      "processes": [
+        {
+          "title": "Feasibility Analysis and Planning",
+          "description": "We conduct thorough feasibility studies and site assessments to ensure optimal hydroelectric plant design."
+        },
+        {
+          "title": "Construction and Installation",
+          "description": "Our team handles the end-to-end construction and installation of hydroelectric systems, ensuring high-quality and sustainable infrastructure."
+        },
+        {
+          "title": "Commissioning and Testing",
+          "description": "Comprehensive system testing is performed to ensure safe, efficient, and reliable operation of the hydroelectric facility."
+        }
+      ],
+      "description": "We provide tailored hydropower infrastructure solutions to meet both environmental and energy generation needs.",
+      "overviewTagline": "Empowering the future with clean and reliable water-based energy solutions."
+    },
+    {
+      "name": "dam-water-resource-management",
+      "image": "/images/services/8.png",
+      "detailsTitle": "Comprehensive Dam and Water Resource Services",
+      "title": "Dam and Water Resource Management",
+      "delay": "0ms",
+      "overview": "Dam and Water Resource Management encompasses dam safety inspections, water flow regulation, and energy-efficient storage solutions. These services ensure the optimal utilization of water resources, contributing to both sustainable energy generation and environmental preservation.",
+      "leftBenefits": [
+        "Expert dam safety inspections and assessments.",
+        "Efficient water flow regulation for hydroelectric systems.",
+        "Implementation of advanced pumped storage solutions."
+      ],
+      "rightBenefits": [
+        "Enhanced water resource management.",
+        "Improved energy storage and regulation capabilities.",
+        "Reduced risks and operational downtime."
+      ],
+      "processes": [
+        {
+          "title": "Safety Assessments and Maintenance",
+          "description": "Our specialists perform detailed safety inspections and maintenance to ensure the structural integrity of dams."
+        },
+        {
+          "title": "Water Flow Regulation",
+          "description": "We optimize water flow management to enhance energy generation while maintaining ecological balance."
+        },
+        {
+          "title": "Pumped Storage Integration",
+          "description": "Our team designs and installs pumped storage systems for efficient energy management and peak load balancing."
+        }
+      ],
+      "description": "We specialize in efficient water resource management to maximize energy production and ensure safe, reliable operations.",
+      "overviewTagline": "Balancing water resources for sustainable energy and environmental harmony."
+    },
+    {
+      "name": "turbine-operations-maintenance",
+      "image": "/images/services/9.png",
+      "detailsTitle": "Hydraulic Turbine Maintenance Services",
+      "title": "Turbine Operations and Maintenance",
+      "delay": "0ms",
+      "overview": "Turbine Operations and Maintenance focuses on the upkeep and optimization of hydraulic turbines for efficient energy production. Our services include routine maintenance, advanced troubleshooting, and performance enhancements to ensure maximum efficiency and longevity.",
+      "leftBenefits": [
+        "Comprehensive hydraulic turbine maintenance.",
+        "Repair and replacement of turbine components.",
+        "Optimization for peak energy generation."
+      ],
+      "rightBenefits": [
+        "Minimized downtime and operational costs.",
+        "Extended turbine lifespan with expert care.",
+        "Increased efficiency and reliability of energy production."
+      ],
+      "processes": [
+        {
+          "title": "Routine Maintenance and Inspections",
+          "description": "Our experts perform regular inspections and maintenance to address wear and tear, ensuring consistent performance."
+        },
+        {
+          "title": "Component Repair and Replacement",
+          "description": "We handle repairs and replacements of turbine blades, bearings, and other critical components to maintain operational efficiency."
+        },
+        {
+          "title": "Performance Optimization",
+          "description": "Our team applies advanced techniques to enhance turbine efficiency, maximizing energy output."
+        }
+      ],
+      "description": "We ensure optimal performance and longevity of turbines through proactive maintenance and repairs.",
+      "overviewTagline": "Ensuring the reliability and efficiency of hydraulic turbines for a sustainable energy future."
+    }
+  ]
+}

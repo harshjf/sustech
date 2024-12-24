@@ -10,11 +10,11 @@ const swiperOptions = {
     disableOnInteraction: false,
   },
   loop: true,
-  pagination:{
+  pagination: {
     dynamicBullets: true,
   },
 
-  breakpoints:{
+  breakpoints: {
     320: {
       slidesPerView: 1,
       // spaceBetween: 30,
@@ -39,67 +39,93 @@ const swiperOptions = {
       slidesPerView: 3,
       // spaceBetween: 30,
     },
-  }
-
-  
+  },
 };
 const Testimonial1 = () => {
   return (
-  <>
-  <section className="testimonial-section">
-    <div className="icon-turbines-5"></div>
-    <div className="auto-container">
-      <div className="carousel-outer">
-        <Swiper {...swiperOptions} className="testimonial-carousel">
-          {/* testimonial Block */}
-          <SwiperSlide className="testimonial-block">
-            <div className="inner-box">
-              <div className="icon-box"><span className="icon icon-quote"></span></div>
-              <figure className="thumb"><img src="/images/resource/testi1-1.jpg" alt="Image"/></figure>
-              <div className="text">Build and implement innovative, profitable and sustainable products and services</div>
-              <h6 className="name">Mark Wood</h6>
-              <span className="designation">CEO, Soliur</span>
-              <div className="icon-bulb"></div>
-            </div>
-          </SwiperSlide>
-          {/* testimonial Block */}
-          <SwiperSlide className="testimonial-block">
-            <div className="inner-box">
-              <div className="icon-box"><span className="icon icon-quote"></span></div>
-              <figure className="thumb"><img src="/images/resource/testi1-2.jpg" alt="Image"/></figure>
-              <div className="text">Build and implement innovative, profitable and sustainable products and services</div>
-              <h6 className="name">Mark Wood</h6>
-              <span className="designation">CEO, Soliur</span>
-              <div className="icon-bulb"></div>
-            </div>
-          </SwiperSlide>
-          {/* testimonial Block */}
-          <SwiperSlide className="testimonial-block">
-            <div className="inner-box">
-              <div className="icon-box"><span className="icon icon-quote"></span></div>
-              <figure className="thumb"><img src="/images/resource/testi1-3.jpg" alt="Image"/></figure>
-              <div className="text">Build and implement innovative, profitable and sustainable products and services</div>
-              <h6 className="name">Mark Wood</h6>
-              <span className="designation">CEO, Soliur</span>
-              <div className="icon-bulb"></div>
-            </div>
-          </SwiperSlide>
-          {/* testimonial Block */}
-          <SwiperSlide className="testimonial-block">
-            <div className="inner-box">
-              <div className="icon-box"><span className="icon icon-quote"></span></div>
-              <figure className="thumb"><img src="/images/resource/testi1-1.jpg" alt="Image"/></figure>
-              <div className="text">Build and implement innovative, profitable and sustainable products and services</div>
-              <h6 className="name">Mark Wood</h6>
-              <span className="designation">CEO, Soliur</span>
-              <div className="icon-bulb"></div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
-    </div>
-  </section>
-  </>
+    <>
+      <section className="testimonial-section">
+        <div className="icon-turbines-5"></div>
+        <div className="auto-container">
+          <div className="carousel-outer">
+            <Swiper {...swiperOptions} className="testimonial-carousel">
+              {/* testimonial Block */}
+              <SwiperSlide className="testimonial-block">
+                <div className="inner-box">
+                  <div className="icon-box">
+                    <span className="icon icon-quote"></span>
+                  </div>
+                  <figure className="thumb">
+                    <img src="/images/resource/testi1-1.jpg" alt="Image" />
+                  </figure>
+                  <div className="text">
+                    Build and implement innovative, profitable and sustainable
+                    products and services
+                  </div>
+                  <h6 className="name">Mark Wood</h6>
+                  <span className="designation">CEO, Sustech</span>
+                  <div className="icon-bulb"></div>
+                </div>
+              </SwiperSlide>
+              {/* testimonial Block */}
+              <SwiperSlide className="testimonial-block">
+                <div className="inner-box">
+                  <div className="icon-box">
+                    <span className="icon icon-quote"></span>
+                  </div>
+                  <figure className="thumb">
+                    <img src="/images/resource/testi1-2.jpg" alt="Image" />
+                  </figure>
+                  <div className="text">
+                    Build and implement innovative, profitable and sustainable
+                    products and services
+                  </div>
+                  <h6 className="name">Mark Wood</h6>
+                  <span className="designation">CEO, Sustech</span>
+                  <div className="icon-bulb"></div>
+                </div>
+              </SwiperSlide>
+              {/* testimonial Block */}
+              <SwiperSlide className="testimonial-block">
+                <div className="inner-box">
+                  <div className="icon-box">
+                    <span className="icon icon-quote"></span>
+                  </div>
+                  <figure className="thumb">
+                    <img src="/images/resource/testi1-3.jpg" alt="Image" />
+                  </figure>
+                  <div className="text">
+                    Build and implement innovative, profitable and sustainable
+                    products and services
+                  </div>
+                  <h6 className="name">Mark Wood</h6>
+                  <span className="designation">CEO, Sustech</span>
+                  <div className="icon-bulb"></div>
+                </div>
+              </SwiperSlide>
+              {/* testimonial Block */}
+              <SwiperSlide className="testimonial-block">
+                <div className="inner-box">
+                  <div className="icon-box">
+                    <span className="icon icon-quote"></span>
+                  </div>
+                  <figure className="thumb">
+                    <img src="/images/resource/testi1-1.jpg" alt="Image" />
+                  </figure>
+                  <div className="text">
+                    Build and implement innovative, profitable and sustainable
+                    products and services
+                  </div>
+                  <h6 className="name">Mark Wood</h6>
+                  <span className="designation">CEO, Sustech</span>
+                  <div className="icon-bulb"></div>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
-export default Testimonial1
+export default Testimonial1;

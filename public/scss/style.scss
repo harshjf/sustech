@@ -1,6 +1,6 @@
-/* Soliur | Solar & Electricity HTML Template
+/* Sustech | Solar & Electricity HTML Template
 
-Template Name: Soliur
+Template Name: Sustech
 Version: 1.0.0
 License: copyright commercial
 
@@ -40,20 +40,19 @@ License: copyright commercial
 @import "common/mixing.scss";
 @import "common/loader.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap");
 
-@import url('animate.css');
+@import url("animate.css");
 //@import url('owl.css');
 //@import url('swiper.min.css');
 //@import url('jquery.fancybox.min.css');
 //@import url('jquery-ui.css');
-@import url('linear.css');
-@import url('select2.min.css');
-@import url('fontawesome.css');
-@import url('flaticon.css');
-@import url('tm-bs-mp.css');
-@import url('tm-utility-classes.css');
-
+@import url("linear.css");
+@import url("select2.min.css");
+@import url("fontawesome.css");
+@import url("flaticon.css");
+@import url("tm-bs-mp.css");
+@import url("tm-utility-classes.css");
 
 // import SCSS components one by one
 @import "reset.scss";

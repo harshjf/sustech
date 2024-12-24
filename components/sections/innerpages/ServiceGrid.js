@@ -1,125 +1,63 @@
-import Link from "next/link"
+import Link from "next/link";
+import services from "../../../data/services.json";
+
 const ServiceGrid = () => {
   return (
-    <>
-
-
-  <section className="our-services pt-120 pb-90">
-    <div className="auto-container">
-      <div className="row"> 
-        {/* Service Block */}
-        <div className="service-block mb-30 col-lg-4 col-md-6 wow fadeInUp">
-          <div className="inner-box">
-            <div className="image-box">
-              <figure className="image"><Link href="page-service-details"><img src="/images/resource/service1-1.jpg" alt="Image"/></Link></figure>
-            </div>
-            <div className="content-box">
-              <div className="icon-border-2"></div>
-              <div className="icon-border-3"></div>
-              <i className="icon flaticon-solar-panels"></i>
-              <div className="content">
-                <h4 className="title"><Link href="page-service-details">Uitility Solutions</Link></h4>
-                <div className="text">With over four decades of experience providing solutions to large-scale enterprises</div>
-              </div>
-              <div className="count">01</div>
-            </div>
-          </div>
-        </div>
-        {/* Service Block */}
-        <div className="service-block mb-30 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-          <div className="inner-box">
-            <div className="image-box">
-              <figure className="image"><Link href="page-service-details"><img src="/images/resource/service1-2.jpg" alt="Image"/></Link></figure>
-            </div>
-            <div className="content-box">
-              <div className="icon-border-2"></div>
-              <div className="icon-border-3"></div>
-              <i className="icon flaticon-solar-panel-6"></i>
-              <div className="content">
-                <h4 className="title"><Link href="page-service-details">C&I Solutions</Link></h4>
-                <div className="text">With over four decades of experience providing solutions to large-scale enterprises</div>
-              </div>
-              <div className="count">01</div>
-            </div>
-          </div>
-        </div>
-        {/* Service Block */}
-        <div className="service-block mb-30 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-          <div className="inner-box">
-            <div className="image-box">
-              <figure className="image"><Link href="page-service-details"><img src="/images/resource/service1-3.jpg" alt="Image"/></Link></figure>
-            </div>
-            <div className="content-box">
-              <div className="icon-border-2"></div>
-              <div className="icon-border-3"></div>
-              <i className="icon flaticon-solar-energy-1"></i>
-              <div className="content">
-                <h4 className="title"><Link href="page-service-details">Residential Solutions</Link></h4>
-                <div className="text">With over four decades of experience providing solutions to large-scale enterprises</div>
-              </div>
-              <div className="count">01</div>
+    <section className="our-services pt-120 pb-90">
+      <div className="auto-container">
+        {Object.keys(services).map((category) => (
+          <div key={category}>
+            <h3
+              className="mb-8"
+              style={{ color: services[category][0]?.color }}
+            >
+              {category}
+            </h3>
+            <div className="row">
+              {services[category].map((item) => (
+                <div
+                  key={item.name}
+                  className="service-block mb-30 col-lg-4 col-md-6 wow fadeInUp"
+                >
+                  <div className="inner-box">
+                    <div className="image-box">
+                      <figure className="image">
+                        <Link href={`/services/${item.name}`}>
+                          <img
+                            src={item.image}
+                            alt={item.title}
+                            style={{ height: "240px" }}
+                          />
+                        </Link>
+                      </figure>
+                    </div>
+                    <div
+                      className="content-box"
+                      style={{
+                        height: "400px",
+                        overflow: "hidden",
+                      }}
+                    >
+                      <i className="icon flaticon-solar-panels"></i>
+                      <div className="content">
+                        <h4 className="title">
+                          <Link href={`/services/${item.name}`}>
+                            {item.title}
+                          </Link>
+                        </h4>
+                        <div className="text">{item.description}</div>
+                      </div>
+                      {/*  <div className="count">01</div> */}
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        </div>
-        {/* Service Block */}
-        <div className="service-block mb-30 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-          <div className="inner-box">
-            <div className="image-box">
-              <figure className="image"><Link href="page-service-details"><img src="/images/resource/service1-3.jpg" alt="Image"/></Link></figure>
-            </div>
-            <div className="content-box">
-              <div className="icon-border-2"></div>
-              <div className="icon-border-3"></div>
-              <i className="icon flaticon-solar-energy-1"></i>
-              <div className="content">
-                <h4 className="title"><Link href="page-service-details">Residential Solutions</Link></h4>
-                <div className="text">With over four decades of experience providing solutions to large-scale enterprises</div>
-              </div>
-              <div className="count">01</div>
-            </div>
-          </div>
-        </div>
-        {/* Service Block */}
-        <div className="service-block mb-30 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-          <div className="inner-box">
-            <div className="image-box">
-              <figure className="image"><Link href="page-service-details"><img src="/images/resource/service1-1.jpg" alt="Image"/></Link></figure>
-            </div>
-            <div className="content-box">
-              <div className="icon-border-2"></div>
-              <div className="icon-border-3"></div>
-              <i className="icon flaticon-solar-panels"></i>
-              <div className="content">
-                <h4 className="title"><Link href="page-service-details">Uitility Solutions</Link></h4>
-                <div className="text">With over four decades of experience providing solutions to large-scale enterprises</div>
-              </div>
-              <div className="count">01</div>
-            </div>
-          </div>
-        </div>
-        {/* Service Block */}
-        <div className="service-block mb-30 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
-          <div className="inner-box">
-            <div className="image-box">
-              <figure className="image"><Link href="page-service-details"><img src="/images/resource/service1-2.jpg" alt="Image"/></Link></figure>
-            </div>
-            <div className="content-box">
-              <div className="icon-border-2"></div>
-              <div className="icon-border-3"></div>
-              <i className="icon flaticon-solar-panel-6"></i>
-              <div className="content">
-                <h4 className="title"><Link href="page-service-details">C&I Solutions</Link></h4>
-                <div className="text">With over four decades of experience providing solutions to large-scale enterprises</div>
-              </div>
-              <div className="count">01</div>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
-    </div>
-  </section>
-       
-    </>
+    </section>
   );
 };
-export default ServiceGrid
+
+export default ServiceGrid;

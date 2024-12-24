@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "/images/resource/project2-1.jpg",
+    "category": "Sustech Neo Energy Private Ltd.",
+    "title": "Power project",
+    "name": "power-project",
+    "link": "page-project-details"
+  },
+  {
+    "id": 2,
+    "image": "/images/resource/project2-2.jpg",
+    "category": "Sustech Neo Energy Private Ltd.",
+    "title": "Power project 2",
+    "name": "power-project-2",
+    "link": "page-project-details"
+  },
+  {
+    "id": 3,
+    "image": "/images/resource/project2-3.jpg",
+    "category": "Sustech Neo Energy Private Ltd.",
+    "title": "Power project 3",
+    "name": "power-project-3",
+    "link": "page-project-details"
+  },
+  {
+    "id": 4,
+    "image": "/images/resource/project2-2.jpg",
+    "category": "Sustech Neo Energy Private Ltd.",
+    "title": "Power project 4",
+    "name": "power-project-4",
+    "link": "page-project-details"
+  }
+]
