@@ -42,7 +42,7 @@ export default function Header1({
             <div className="upper-box">
               <div className="nav-logo">
                 <Link href="/">
-                  <img src="/images/logosustech.png" alt="" />
+                  <img src="/images/logosustech_header.png" alt="" />
                 </Link>
               </div>
               <div className="close-btn" onClick={handleMobileMenu}>
@@ -87,7 +87,7 @@ export default function Header1({
               {/*Logo*/}
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logosustech.png" alt="" />
+                  <img src="/images/logosustech_header.png" alt="" />
                 </Link>
               </div>
               {/*Right Col*/}
