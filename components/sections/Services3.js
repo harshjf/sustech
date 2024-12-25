@@ -42,9 +42,8 @@ const Services3 = () => {
                   {...swiperOptions}
                   className="services-carousel-two owl-carousel owl-theme default-dots"
                 >
-                  {/* service Block */}
                   <SwiperSlide className="service-block-four">
-                    <div className="inner-box">
+                    <div className="inner-box" style={{ marginTop: "12%" }}>
                       <i className="icon flaticon-bulb"></i>
                       <h4 className="title">
                         Turning sunlight into sustainable energy for a brighter
@@ -65,43 +64,6 @@ const Services3 = () => {
                       </div>
                     </div>
                   </SwiperSlide>
-
-                  {/* service Block */}
-                  {/*  <SwiperSlide className="service-block-four">
-                    <div className="inner-box">
-                      <i className="icon flaticon-bulb"></i>
-                      <h4 className="title">
-                        Let the wind drive your sustainable future.
-                      </h4>
-                      <div className="text">
-                        Wind turbines harness the natural energy of the breeze,
-                        providing a reliable, eco-friendly source of
-                        electricity. Wind energy is abundant, renewable, and has
-                        the potential to power homes and industries without the
-                        harmful environmental effects of fossil fuels. Investing
-                        in wind energy leads to cleaner air, lower carbon
-                        footprints, and a sustainable future.
-                      </div>
-                    </div>
-                  </SwiperSlide> */}
-                  {/* service Block */}
-                  {/*  <SwiperSlide className="service-block-four">
-                    <div className="inner-box">
-                      <i className="icon flaticon-bulb"></i>
-                      <h4 className="title">
-                        Channeling water's strength for endless power.
-                      </h4>
-                      <div className="text">
-                        Hydroelectric systems tap into the power of flowing
-                        water to generate electricity. This form of renewable
-                        energy is both consistent and environmentally friendly,
-                        providing communities with a dependable energy source.
-                        By using the natural movement of water, hydroelectric
-                        power reduces the need for non-renewable resources,
-                        contributing to a cleaner, greener energy grid.
-                      </div>
-                    </div>
-                  </SwiperSlide> */}
                 </Swiper>
               </div>
             </div>
