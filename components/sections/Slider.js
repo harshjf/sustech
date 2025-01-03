@@ -25,16 +25,16 @@ const swiperOptions = {
 const Slider = () => {
   const slides = [...Data.items];
 
-  if (slides.length < 4) {
-    slides.push(...Data.items);
-  }
+  // if (slides.length < 4) {
+  //   slides.push(...Data.items);
+  // }
 
   return (
     <section
       className="featured-slider-one"
       style={{ background: "grey", minHeight: "100vh" }}
     >
-      <div className="containe">
+      <div>
         <Swiper {...swiperOptions} className="swiper-container ro f-slider-one">
           {slides.map((item, key) => (
             <SwiperSlide key={`hs-slide-${key}`} className="swiper-slide">

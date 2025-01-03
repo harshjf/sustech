@@ -11,9 +11,9 @@ const About33 = () => {
   };
   return (
     <>
-      <section className="about-section-five pt-0">
+      <section className="about-section-five mb-50">
         <div
-          className="bg bg-image"
+          className="bg"
           style={{ backgroundImage: "url(images/background/10.jpg)" }}
         ></div>
         <div className="auto-container">

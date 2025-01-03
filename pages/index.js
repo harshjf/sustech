@@ -11,6 +11,7 @@ import Testimonial1 from "@/components/sections/Testimonial1";
 import Services3 from "@/components/sections/Services3.js";
 import About33 from "@/components/sections/About33";
 import Form3 from "@/components/sections/Form3";
+import Applications from "@/components/sections/Applications";
 
 export default function Home() {
   return (
@@ -22,8 +23,9 @@ export default function Home() {
         <About2 />
         <About3 />
         <Marquee />
+        <Applications/>
         <Services3 />
-        <About33 />
+        {/* <About33 /> */}
         <Testimonial1 />
         <Form3 />
       </Layout>

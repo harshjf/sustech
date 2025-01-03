@@ -1,19 +1,9 @@
 {
   "items": [
     {
-      "image": "images/home/slider/1.png",
-      "title": "Bright Energy, Brighter World.",
-      "text": "Solar energy provides clean, renewable power that reduces carbon footprints while illuminating lives."
-    },
-    {
-      "image": "images/home/slider/3.png",
-      "title": "Current Energy for a Green World.",
-      "text": "Hydropower is a cornerstone of renewable energy, offering efficient solutions through Earth's natural waterways."
-    },
-    {
-      "image": "images/home/slider/2.png",
-      "title": "Winds of Change, Waves of Power.",
-      "text": "Sustainable and renewable, wind energy drives global efforts toward a greener future."
+      "image": "images/home/slider/sustech_landing_img.avif",
+      "title": "WELCOME TO SUSTECH SOLUTIONS",
+      "text": "Sustainable Future – Sustech Solutions"
     }
   ]
 }

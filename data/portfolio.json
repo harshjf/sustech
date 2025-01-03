@@ -1,34 +1,80 @@
 [
   {
     "id": 1,
-    "image": "/images/resource/project2-1.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project",
-    "name": "power-project",
-    "link": "page-project-details"
+    "title": "LED Emergency Bulb",
+    "description": "The perfect solution for constant power failure. It lights up immediately during power cuts and auto-charges when power is available.",
+    "bullets": [
+      "Battery Backup up to 4 Hours",
+      "LED Life 25000 Hours",
+      "Operating Voltage 230V AC @50Hz",
+      "LED Beam Angle 120°",
+      "IP Rating 200°"
+    ],
+    "image": "Images/products/p5.png"
   },
   {
     "id": 2,
-    "image": "/images/resource/project2-2.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project 2",
-    "name": "power-project-2",
-    "link": "page-project-details"
+    "title": "LED Bulb",
+    "description": "Efficient lighting with energy-saving technology. Brightens up your space with minimal power consumption.",
+    "bullets": [
+      "Long-lasting durability",
+      "Energy-efficient technology",
+      "High luminosity",
+      "Compact design",
+      "Eco-friendly material"
+    ],
+    "image": "Images/products/p2.png"
   },
   {
     "id": 3,
-    "image": "/images/resource/project2-3.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project 3",
-    "name": "power-project-3",
-    "link": "page-project-details"
+    "title": "LED Batten Light",
+    "description": "A stylish and bright solution for homes and offices. Sleek design and excellent performance.",
+    "bullets": [
+      "Slim and elegant design",
+      "Bright and uniform lighting",
+      "Easy installation",
+      "Durable construction",
+      "Low power consumption"
+    ],
+    "image": "Images/products/p3.jpg"
   },
   {
     "id": 4,
-    "image": "/images/resource/project2-2.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project 4",
-    "name": "power-project-4",
-    "link": "page-project-details"
+    "title": "LED Street Lights",
+    "description": "Powerful and reliable lighting for streets and public areas. Designed to withstand harsh conditions.",
+    "bullets": [
+      "High performance and longevity",
+      "Weather-resistant",
+      "Wide beam coverage",
+      "Energy-efficient technology",
+      "Low maintenance"
+    ],
+    "image": "Images/products/p4.png"
+  },
+  {
+    "id": 5,
+    "title": "LED Flood Lights",
+    "description": "High-intensity lighting for outdoor areas. Perfect for stadiums, parking lots, and large spaces.",
+    "bullets": [
+      "Exceptional brightness",
+      "Durable and waterproof",
+      "Energy-saving operation",
+      "Wide-angle illumination",
+      "Multiple mounting options"
+    ],
+    "image": "Images/products/p1.png"
+  },
+  {
+    "id": 6,
+    "title": "LED Ceiling Light",
+    "description": "Modern lighting solution for a sleek and minimal look. Provides balanced and consistent lighting.",
+    "bullets": [
+      "Elegant design",
+      "Soft and soothing light",
+      "Easy to install",
+      "Energy-saving performance",
+      "Long-lasting build quality"
+    ],
+    "image": "Images/products/p3.png"
   }
 ]
