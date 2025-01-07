@@ -100,7 +100,7 @@ const Projects2 = () => {
             </div>
           </div>
 
-          <div className="sec-title text-center">
+          {/* <div className="sec-title text-center">
             <div className="sub-title-outer">
               <span className="sub-title">SUCCESSFUL Installations</span>
               <span className="divider"></span>
@@ -110,13 +110,12 @@ const Projects2 = () => {
               for itself
             </h2>
           </div>
-        </div>
-        <div className="carousel-outer">
+        </div> */}
+          {/* <div className="carousel-outer">
           <Swiper
             {...swiperOptions}
             className="projects-carousel-two owl-carousel owl-theme default-dots"
           >
-            {/* project Block */}
             <SwiperSlide className="project-block">
               <div className="inner-box">
                 <div className="image-box">
@@ -140,7 +139,7 @@ const Projects2 = () => {
             <Link href="page-project-details" className="theme-btn read-more">
               <i className="fa fa-plus"></i>
             </Link>
-            {/* project Block */}
+
             <SwiperSlide className="project-block">
               <div className="inner-box">
                 <div className="image-box">
@@ -155,18 +154,12 @@ const Projects2 = () => {
                   <span className="cat"> Sustech Neo Energy Private Ltd.</span>
                   <br />
                   <h4 className="title">Power project</h4>
-                  {/* <Link
-                    href="page-project-details"
-                    className="theme-btn read-more"
-                  >
-                    <i className="fa fa-plus"></i>
-                  </Link> */}
                   <br />
                 </div>
                 <div className="overlay-1"></div>
               </div>
             </SwiperSlide>
-            {/* project Block */}
+            
             <SwiperSlide className="project-block">
               <div className="inner-box">
                 <div className="image-box">
@@ -181,18 +174,12 @@ const Projects2 = () => {
                   <span className="cat"> Sustech Neo Energy Private Ltd.</span>
                   <br />
                   <h4 className="title">Power project</h4>
-                  {/*  <Link
-                    href="page-project-details"
-                    className="theme-btn read-more"
-                  >
-                    <i className="fa fa-plus"></i>
-                  </Link> */}
                   <br />
                 </div>
                 <div className="overlay-1"></div>
               </div>
             </SwiperSlide>
-            {/* project Block */}
+            
             <SwiperSlide className="project-block">
               <div className="inner-box">
                 <div className="image-box">
@@ -207,18 +194,13 @@ const Projects2 = () => {
                   <span className="cat"> Sustech Neo Energy Private Ltd.</span>
                   <br />
                   <h4 className="title">Power project</h4>
-                  {/* <Link
-                    href="page-project-details"
-                    className="theme-btn read-more"
-                  >
-                    <i className="fa fa-plus"></i>
-                  </Link> */}
                   <br />
                 </div>
                 <div className="overlay-1"></div>
               </div>
             </SwiperSlide>
           </Swiper>
+        </div> */}
         </div>
       </section>
     </>
