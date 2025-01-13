@@ -101,13 +101,8 @@ const About33 = () => {
                           </figure> */}
                           <div className="content-box">
                             <div className="text two">
-                              Our mission is to provide sustainable and
-                              innovative renewable energy solutions that empower
-                              communities, reduce carbon footprints, and
-                              contribute to a cleaner, greener planet. We are
-                              committed to delivering high-quality, reliable,
-                              and cost-effective solar, wind, and hydro systems
-                              that help create a sustainable future for all.
+                              To nurture and develop hydrogen energy ecosystem
+                              by on demand offsite hydrogen production
                             </div>
                             {/*  <div className="text">
                               A leading voice in low-income solar policy and the
@@ -130,13 +125,11 @@ const About33 = () => {
                           </figure> */}
                           <div className="content-box">
                             <div className="text two">
-                              Our vision is to lead the transition to renewable
-                              energy by making clean energy accessible to every
-                              corner of the world. We strive to be a global
-                              leader in the renewable energy sector, driving
-                              positive environmental and social change through
-                              continuous innovation and the widespread adoption
-                              of solar, wind, and hydro technologies.
+                              We are here to utilize the combined knowledge and
+                              skillset to accelerate the journey to net-zero by
+                              cooperating and collaborating with all
+                              stakeholders in the endeavour to create a
+                              sustainable future.
                             </div>
                             {/*  <div className="text">
                               A leading voice in low-income solar policy and the
@@ -159,16 +152,27 @@ const About33 = () => {
                           </figure> */}
                           <div className="content-box">
                             <div className="text two">
-                              We are committed to sustainability, providing
-                              renewable energy solutions that reduce
-                              environmental impact and promote a cleaner planet.
-                              Through innovation, we leverage advanced
-                              technologies to improve the efficiency of our
-                              systems. Operating with integrity, we prioritize
-                              transparency and ethical practices in all our
-                              dealings. We believe in collaboration, working
-                              with customers and partners to achieve shared
-                              goals.
+                              Sustech Solution has created and innovative
+                              product for conversion of methanol to hydrogen at
+                              low temperatures thereby making on demand hydrogen
+                              available at end use sites. Methanol gets
+                              delivered in a container trailer to an end usage
+                              site like hydrogen refueling stations used to
+                              refill hydrogen vehicles. M2H2 a revolutionary
+                              patented product by Sustech Solutions team
+                              converts the methanol to hydrogen at temperature
+                              not exceeding 130 degree celcius. If bio methanol
+                              is used, M2H2 produces green hydrogen at an
+                              affordable price right at the end usage site. The
+                              applications span from off-grid power, EV
+                              charging, green steel, hydrogen refueling stations
+                              and much more with zero carbon footprint. M2H2
+                              solves the difficult challenge of storage and
+                              transport of green hydrogen by producing green
+                              hydrogen from methanol directly at the site of end
+                              use at affordable prices. This is the beginning of
+                              a green and sustainable future for mankind and our
+                              planet.
                             </div>
                             {/* <div className="text">
                               A leading voice in low-income solar policy and the

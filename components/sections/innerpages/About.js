@@ -18,13 +18,15 @@ const About = () => {
                     Pioneers in Renewable Energy Solutions
                   </h2>
                   <div className="text">
-                    At Sustech Neo Energy Private Ltd., we are dedicated to
-                    revolutionizing the energy landscape with innovative,
-                    sustainable solutions. Established with a vision to
-                    accelerate the global transition to renewable energy, we
-                    specialize in delivering cutting-edge technologies and
-                    eco-friendly practices tailored to meet the diverse energy
-                    needs of businesses and communities.
+                    Sustech Solutions is a pioneering sustainable technology
+                    firm with the vision and ambition to lead and contribute
+                    towards a sustainable world for future generations. Our team
+                    comprises of professionals with decades of
+                    multi-disciplinary experience across continents with
+                    competency in energy, mobility, corporate & project finance,
+                    technology innovation, business incubation, project
+                    management, data science, ecology/wildlife and contract
+                    management.
                   </div>
                 </div>
                 <div className="bottom-box">
