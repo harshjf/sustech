@@ -5,28 +5,22 @@ import Image from "next/image";
 
 const images = [
   {
-    src: "/images/certificate/iso.jpeg",
-    title: "Certificate 1",
+    src: "/images/certificate/iso_9001.png",
+    title: "ISO 9001:2015 Certificate",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly",
+      "We are ISO 9001:2015 certified, showcasing our commitment to maintaining the highest standards of quality in our processes and delivering exceptional products and services. This certification reflects our dedication to customer satisfaction and continual improvement.",
   },
   {
-    src: "/images/certificate/iso.jpeg",
-    title: "Certificate 2",
+    src: "/images/certificate/iso_14001.png",
+    title: "ISO 14001:2015 Certificate",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly",
+      "We are ISO 14001:2015 certified, emphasizing our commitment to sustainable practices and environmental responsibility. This certification underscores our efforts to minimize environmental impact and promote eco-friendly operations.",
   },
   {
-    src: "/images/certificate/iso.jpeg",
-    title: "Certificate 3",
+    src: "/images/certificate/startup_india.png",
+    title: "Startup India Certificate",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly",
-  },
-  {
-    src: "/images/certificate/iso.jpeg",
-    title: "Certificate 4",
-    description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly",
+      "We are recognized under the Startup India Initiative, a flagship program by the Government of India. This certification highlights our commitment to innovation, entrepreneurship, and creating impactful solutions.",
   },
 ];
 
