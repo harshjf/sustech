@@ -25,10 +25,6 @@ const swiperOptions = {
 const Slider = () => {
   const slides = [...Data.items];
 
-  // if (slides.length < 4) {
-  //   slides.push(...Data.items);
-  // }
-
   return (
     <section
       className="featured-slider-one"
@@ -47,14 +43,6 @@ const Slider = () => {
               </div>
             </SwiperSlide>
           ))}
-          {/* <div className="swiper-nav">
-            <button className="swiper-nav-prev">
-              <i className="fa-solid fa-angles-left" />
-            </button>
-            <button className="swiper-nav-next">
-              <i className="fa-solid fa-angles-right" />
-            </button>
-          </div> */}
         </Swiper>
       </div>
     </section>

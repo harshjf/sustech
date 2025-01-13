@@ -27,16 +27,13 @@ export default function MobileMenu() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/services">Services</Link>
-        </li>
-        <li>
-          <Link href="/our-team">Our Team</Link>
+          <Link href="/about-us">About</Link>
         </li>
         <li>
           <Link href="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link href="/about-us">About</Link>
+          <Link href="/certificates">Certifications</Link>
         </li>
         <li>
           <Link href="/contact-us">Contact</Link>
