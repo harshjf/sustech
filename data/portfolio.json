@@ -1,34 +1,54 @@
 [
   {
     "id": 1,
-    "image": "/images/resource/project2-1.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project",
-    "name": "power-project",
-    "link": "page-project-details"
+    "title": "Lorem Ipsum Lorem Ipsum",
+    "description": "The perfect solution for constant power failure. It lights up immediately during power cuts and auto-charges when power is available.",
+    "bullets": [
+      "Point 1",
+      "Point 2",
+      "Point 3",
+      "Point 4",
+      "Point 5"
+    ],
+    "image": "/images/home/hydro2.png"
   },
   {
     "id": 2,
-    "image": "/images/resource/project2-2.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project 2",
-    "name": "power-project-2",
-    "link": "page-project-details"
+    "title": "Lorem Ipsum Lorem Ipsum",
+    "description": "Efficient lighting with energy-saving technology. Brightens up your space with minimal power consumption.",
+    "bullets": [
+      "Point 1",
+      "Point 2",
+      "Point 3",
+      "Point 4",
+      "Point 5"
+    ],
+    "image": "/images/home/hydro2.png"
   },
   {
     "id": 3,
-    "image": "/images/resource/project2-3.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project 3",
-    "name": "power-project-3",
-    "link": "page-project-details"
+    "title": "Lorem Ipsum Lorem Ipsum",
+    "description": "A stylish and bright solution for homes and offices. Sleek design and excellent performance.",
+    "bullets": [
+      "Point 1",
+      "Point 2",
+      "Point 3",
+      "Point 4",
+      "Point 5"
+    ],
+    "image": "/images/home/hydro2.png"
   },
   {
     "id": 4,
-    "image": "/images/resource/project2-2.jpg",
-    "category": "Sustech Neo Energy Private Ltd.",
-    "title": "Power project 4",
-    "name": "power-project-4",
-    "link": "page-project-details"
+    "title": "Lorem Ipsum Lorem Ipsum",
+    "description": "Powerful and reliable lighting for streets and public areas. Designed to withstand harsh conditions.",
+    "bullets": [
+      "Point 1",
+      "Point 2",
+      "Point 3",
+      "Point 4",
+      "Point 5"
+    ],
+    "image": "/images/home/hydro2.png"
   }
 ]

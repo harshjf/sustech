@@ -39,6 +39,12 @@ export default function Footer1() {
                         <br /> Vadodara - 390021
                       </li>
                       <li>
+                        <i className="fal fa-map-marker-alt"></i> FF-109,
+                        Samanvay westbreeze, <br />
+                        Alang House, T B Sanatorium,
+                        <br /> Vadodara - 390021
+                      </li>
+                      <li>
                         <i className="fal fa-phone"></i>{" "}
                         <Link href="tel:+11234562228">(+91) 98259 35445</Link>
                       </li>
