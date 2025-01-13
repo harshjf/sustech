@@ -38,8 +38,10 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <Link href="/contact-us">
-                    <button className="pro-button">Get a Free Estimate</button>
+                  <Link href="contact-us" className="theme-btn btn-style-one">
+                    <span className="btn-title">
+                      Contact Us <i className="icon icon-sm-arrow"></i>
+                    </span>
                   </Link>
                 </div>
               </div>

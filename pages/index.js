@@ -23,10 +23,10 @@ export default function Home() {
         <About2 />
         <About3 />
         <Marquee />
-        <Applications/>
+        <Applications />
         <Services3 />
         {/* <About33 /> */}
-        <Testimonial1 />
+        {/* <Testimonial1 /> */}
         <Form3 />
       </Layout>
     </>
