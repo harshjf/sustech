@@ -70,7 +70,7 @@ const Form3 = () => {
                   <div className="icon-dots"></div>
                   <div className="sec-title">
                     <div className="sub-title-outer">
-                      <span className="sub-title">we care you</span>
+                      <span className="sub-title">we care about you</span>
                       <span className="divider"></span>
                     </div>
                     <h2 className="letters-slide-up text-split">

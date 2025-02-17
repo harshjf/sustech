@@ -6894,12 +6894,14 @@ Section Title
     width: 100%;
   }
 }
+
 .about-section-three .image-column {
   margin-bottom: 50px;
 }
 .about-section-three .image-column .inner-column {
   position: relative;
   display: inline-block;
+ 
   padding-right: 100px;
 }
 @media (max-width: 1199.98px) {

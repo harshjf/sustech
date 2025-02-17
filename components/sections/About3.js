@@ -15,7 +15,7 @@ const About3 = () => {
                 <div className="inner-column" style={{ paddingLeft: "35px" }}>
                   <div className="sec-title">
                     <div className="sub-title-outer">
-                      <span className="sub-title">Hydroelectric Energy</span>
+                      <span className="sub-title">Hydrogen Innovation</span>
                       <span className="divider"></span>
                     </div>
                     <h2
@@ -24,34 +24,40 @@ const About3 = () => {
                         color: "#00308f",
                       }}
                     >
-                      Powering the Future with the Flow of Water
+                      Affordable Hydrogen On-Demand with Methanol Conversion
                     </h2>
                   </div>
                   <div className="icon-box">
                     <div className="content-box">
                       <i className="icon flaticon-bulb"></i>
                       <div className="text">
-                        Hydroelectric energy is one of the most reliable and
-                        efficient renewable energy sources, harnessing the power
-                        of flowing water to generate clean electricity. At
-                        Sustech Neo Energy, we offer innovative hydroelectric
-                        solutions designed to meet diverse energy needs while
-                        minimizing environmental impact.
+                        Sustech team has developed an innovative solution for
+                        converting methanol to hydrogen at low temperatures,
+                        enabling on-demand hydrogen production directly at
+                        end-use sites. M2H2, a revolutionary patented
+                        technology. This game-changing
+                        approach provides green hydrogen for various
+                        applications, including off-grid power, EV charging,
+                        green steel, and hydrogen refuelling stations, with zero
+                        carbon footprint. This marks the beginning of a green
+                        and sustainable future for mankind and our planet.
                       </div>
                     </div>
                   </div>
                   <ul className="list-style-two">
                     <li>
-                      <i className="fa fa-arrow-alt-circle-right"></i>{" "}
-                      Consistent and reliable energy production
+                      <i className="fa fa-arrow-alt-circle-right"></i> Converts
+                      methanol to hydrogen at just 130°C for on-site use{" "}
                     </li>
                     <li>
-                      <i className="fa fa-arrow-alt-circle-right"></i> A solar
-                      Environmentally friendly
+                      <i className="fa fa-arrow-alt-circle-right"></i>
+                      Enables clean hydrogen supply for refuelling stations, EVs
+                      & industry{" "}
                     </li>
                     <li>
-                      <i className="fa fa-arrow-alt-circle-right"></i> Help
-                      Scalable systems
+                      <i className="fa fa-arrow-alt-circle-right"></i>
+                      Eliminates storage & transport challenges with
+                      cost-effective green hydrogen{" "}
                     </li>
                   </ul>
                 </div>

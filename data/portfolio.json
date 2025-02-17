@@ -1,27 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Lorem Ipsum Lorem Ipsum",
-    "description": "The perfect solution for constant power failure. It lights up immediately during power cuts and auto-charges when power is available.",
+    "title": "M2H2",
+    "description": "At an industrial scale, hydrogen is produced from methanol by steam reforming process at very high temperature exceeding 200 deg.C. In addition, carbon monoxide (CO) contamination of H2 is a drawback.  M2H2 utilizes a special catalyst for conversion of methanol to hydrogen (free from CO) at lower temperature (90 to 130 deg. C).   M2H2 utilized catalyst can also be used in analogous conditions for hydrogen production from higher carbon chain alcohols such as: ",
     "bullets": [
-      "Point 1",
-      "Point 2",
-      "Point 3",
-      "Point 4",
-      "Point 5"
+      "Ethanol (C2H5OH)",
+      "N-propanol (C3H7OH)",
+      "Glycerol (C3H8O3"
     ],
-    "image": "/images/home/hydro2.png"
+    "image": "/images/portfolio/picture1.png"
   },
   {
     "id": 2,
-    "title": "Lorem Ipsum Lorem Ipsum",
-    "description": "Efficient lighting with energy-saving technology. Brightens up your space with minimal power consumption.",
+    "title": "A2H2",
+    "description": "Under research and development",
     "bullets": [
-      "Point 1",
-      "Point 2",
-      "Point 3",
-      "Point 4",
-      "Point 5"
     ],
     "image": "/images/home/hydro2.png"
   },

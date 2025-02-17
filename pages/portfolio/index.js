@@ -1,3 +1,4 @@
+import React from "react";
 import Layout from "@/components/layout/Layout";
 import PageTitle from "@/components/sections/PageTitle";
 import ProjectGrid from "@/components/sections/innerpages/ProjectGrid";
@@ -30,7 +31,16 @@ export default function Home() {
 
                 <div className="pro-text-container">
                   <h2 className="pro-title">{product.title}</h2>
-                  <p className="pro-description">{product.description}</p>
+                  <p className="pro-description">
+                    {" "}
+                    {product.description.split(".  ").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
                   <ul className="pro-bullet-list">
                     {product.bullets.map((bullet, idx) => (
                       <li key={idx} className="pro-bullet-item">

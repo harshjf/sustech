@@ -13,7 +13,7 @@ const About = () => {
                 <div className="inner-column">
                   <div className="sec-title">
                     <div className="sub-title-outer">
-                      <span className="sub-title">Solar Energy</span>
+                      <span className="sub-title">Hydrogen Energy</span>
                       <span className="divider"></span>
                     </div>
                     <h2
@@ -22,29 +22,33 @@ const About = () => {
                         color: "#FE691E",
                       }}
                     >
-                      Harness the Power of the Sun for a Brighter Tomorrow
+                      Unlocking the Potential of Hydrogen for a Sustainable
+                      Future
                     </h2>
                     <div className="text">
-                      Solar energy represents the future of sustainable power,
-                      offering clean and renewable solutions to meet the world's
-                      growing energy needs. At Sustech Neo Energy, we specialize
-                      in providing cutting-edge solar technologies designed to
-                      maximize efficiency and minimize environmental impact.
+                      Hydrogen is increasingly viewed as a vital component of
+                      the transition to green energy due to its potential to
+                      significantly reduce greenhouse gas emissions and reliance
+                      on fossil fuels. Moreover, hydrogen's potential extends to
+                      heating applications, where it can be blended with natural
+                      gas to reduce emissions in existing infrastructure.
                     </div>
                   </div>
                   <div className="bottom-box">
                     <ul className="list-style-three">
                       <li>
-                        <i className="icon flaticon-solar-panels"></i>{" "}
-                        Significantly reduces <br /> electricity bills
+                        <i className="icon flaticon-solar-panels"></i> Powers
+                        fuel-cell vehicles <br /> with faster refueling & longer
+                        range.
                       </li>
                       <li>
-                        <i className="icon flaticon-solar-panel-6"></i> A solar
-                        installation <br /> makes attractive
+                        <i className="icon flaticon-solar-panel-6"></i>Enables
+                        decarbonization <br /> in steel, cement & chemical
+                        industries.
                       </li>
                       <li>
-                        <i className="icon flaticon-solar-energy-1"></i> Help
-                        lower electricity <br /> residential costs
+                        <i className="icon flaticon-solar-energy-1"></i> Stores
+                        excess renewable <br /> energy for grid reliability.
                       </li>
                     </ul>
                   </div>
@@ -53,19 +57,14 @@ const About = () => {
 
               <div className="image-column col-xl-7 col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
-                  <div className="bg-home"></div>
                   <div className="image-box">
-                    <div className="image">
-                      <img src="/images/resource/about1-1.png" alt="Image" />
-                    </div>
-                    <div className="image-2 zoom-one" data-wow-delay="300ms">
-                      <img src="/images/resource/about1-2.jpg" alt="Image" />
-                    </div>
-                    <div className="exp-box">
-                      <i className="icon flaticon-bulb"></i>
-                      <br />
-                      <span className="text">Affordable System</span>
-                    </div>
+                    <figure className="image overlay-anim">
+                      <img
+                        src="/images/background/hydrogen.jpg"
+                        alt="Image"
+                        className="image"
+                      />
+                    </figure>
                   </div>
                 </div>
               </div>

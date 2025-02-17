@@ -7,12 +7,12 @@ const About2 = () => {
         <div className="icon-solar"></div>
         <div className="auto-container">
           <div className="row">
-            {/* Image Column - Now on the right side */}
-            <div className="image-column col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-2">
+            <div className="image-column col-xl-7 col-lg-6 col-md-12 col-sm-12 order-lg-2 order-2 ">
               <div className="inner-column">
                 <div className="image-box">
                   <figure className="image overlay-anim">
-                    <img src="/images/home/wind.png" alt="Image" />
+                    <img src="/images/background/Picture3.png" alt="Image" />
+                    {/* <img src="/images/home/wind.png" alt="Image" /> */}
                   </figure>
 
                   <div className="exp-box bounce-x">
@@ -28,11 +28,11 @@ const About2 = () => {
               </div>
             </div>
 
-            <div className="content-column col-xl-5 col-lg-6 col-md-12 col-sm-12 order-lg-1 wow fadeInRight">
+            <div className="content-column col-xl-5 col-lg-6 col-md-12 col-sm-12 order-lg-1 order-1 wow fadeInRight">
               <div className="inner-column">
                 <div className="sec-title">
                   <div className="sub-title-outer">
-                    <span className="sub-title">Wind Energy</span>
+                    <span className="sub-title">Hydrogen Challenges</span>
                     <span className="divider"></span>
                   </div>
                   <h2
@@ -41,17 +41,25 @@ const About2 = () => {
                       color: "#028a0f",
                     }}
                   >
-                    Harnessing Nature’s Force for a Sustainable Future.
+                    Overcoming Storage & Transport Barriers for a Hydrogen
+                    Future
                   </h2>
                   <div className="text">
-                    Wind energy is a powerful and sustainable solution to the
-                    global energy challenge, offering clean and renewable
-                    electricity without depleting natural resources. At Sustech
-                    Neo Energy, we bring advanced wind power technologies to
-                    life, helping communities and businesses harness the
-                    untapped potential of wind. Our innovative wind energy
-                    systems are designed to deliver reliable, cost-effective
-                    power while reducing greenhouse gas emissions.
+                    Hydrogen storage and transport pose significant challenges
+                    that impact its economic viability as a clean energy source.
+                    High-pressure storage requires compressing hydrogen up to
+                    700 bar, which is energy-intensive and leads to efficiency
+                    losses. Cryogenic storage, while reducing volume, demands
+                    extreme cooling to -253°C, increasing energy costs. Both
+                    methods require specialized infrastructure, raising overall
+                    expenses. Liquid hydrogen is efficient for long-distance
+                    transport but energy-intensive to liquefy and regasify,
+                    reducing efficiency. Both high-pressure and cryogenic
+                    storage require costly infrastructure and safety measures,
+                    creating the 'hydrogen economy paradox' that limits
+                    hydrogen’s appeal compared to fossil fuels. Overcoming these
+                    hurdles through innovative storage solutions is crucial to
+                    making hydrogen a sustainable energy alternative.
                   </div>
                 </div>
                 <div className="bottom-box">
@@ -59,18 +67,17 @@ const About2 = () => {
                     <ul className="list-style-two">
                       <li>
                         <i className="fa fa-arrow-alt-circle-right"></i>{" "}
-                        Significantly reduces electricity costs with renewable
-                        wind power.
+                        High-pressure storage demands energy & costly materials
                       </li>
                       <li>
-                        <i className="fa fa-arrow-alt-circle-right"></i> A solar
-                        A wind installation generates clean, sustainable energy
-                        effortlessly.
+                        <i className="fa fa-arrow-alt-circle-right"></i>{" "}
+                        Cryogenic storage requires extreme cooling &
+                        infrastructure
                       </li>
                       <li>
-                        <i className="fa fa-arrow-alt-circle-right"></i> Help
-                        Helps lower residential and commercial carbon footprints
-                        effectively.
+                        <i className="fa fa-arrow-alt-circle-right"></i>
+                        Alternative storage methods like solid-state & chemical
+                        storage offer solutions
                       </li>
                     </ul>
                   </div>
