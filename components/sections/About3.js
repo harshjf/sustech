@@ -35,12 +35,12 @@ const About3 = () => {
                         converting methanol to hydrogen at low temperatures,
                         enabling on-demand hydrogen production directly at
                         end-use sites. M2H2, a revolutionary patented
-                        technology. This game-changing
-                        approach provides green hydrogen for various
-                        applications, including off-grid power, EV charging,
-                        green steel, and hydrogen refuelling stations, with zero
-                        carbon footprint. This marks the beginning of a green
-                        and sustainable future for mankind and our planet.
+                        technology. This game-changing approach provides green
+                        hydrogen for various applications, including off-grid
+                        power, EV charging, green steel, and hydrogen refuelling
+                        stations, with zero carbon footprint. This marks the
+                        beginning of a green and sustainable future for mankind
+                        and our planet.
                       </div>
                     </div>
                   </div>
@@ -67,7 +67,7 @@ const About3 = () => {
                 <div className="inner-column">
                   <div className="image-box">
                     <figure className="image overlay-anim">
-                      <img src="/images/home/hydro2.png" alt="Image" />
+                      <img src="/images/home/m2h2_container.webp" alt="Image" />
                     </figure>
                     {/* <div className="exp-box">
                       <div className="inner">

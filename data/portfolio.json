@@ -16,32 +16,6 @@
     "description": "Under research and development",
     "bullets": [
     ],
-    "image": "/images/home/hydro2.png"
-  },
-  {
-    "id": 3,
-    "title": "Lorem Ipsum Lorem Ipsum",
-    "description": "A stylish and bright solution for homes and offices. Sleek design and excellent performance.",
-    "bullets": [
-      "Point 1",
-      "Point 2",
-      "Point 3",
-      "Point 4",
-      "Point 5"
-    ],
-    "image": "/images/home/hydro2.png"
-  },
-  {
-    "id": 4,
-    "title": "Lorem Ipsum Lorem Ipsum",
-    "description": "Powerful and reliable lighting for streets and public areas. Designed to withstand harsh conditions.",
-    "bullets": [
-      "Point 1",
-      "Point 2",
-      "Point 3",
-      "Point 4",
-      "Point 5"
-    ],
-    "image": "/images/home/hydro2.png"
+    "image": "/images/portfolio/a2_h2_placeholder.webp"
   }
 ]
