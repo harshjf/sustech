@@ -15362,8 +15362,15 @@ button:not(:disabled) {
 } */
 
 .featured-slider-one .swiper-slide.swiper-slide-active .f-slider-one-data h1 {
-  font-size: 34px;
-  line-height: 1.8;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 68px;
+}
+
+.featured-slider-one .swiper-slide.swiper-slide-active .f-slider-one-data p {
+  line-height: 1.67em;
+  text-align: center;
+  font-size: 20px;
 }
 
 @media (max-width: 767px) {
