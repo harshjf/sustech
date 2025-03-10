@@ -35,20 +35,20 @@ const About = () => {
                     </div>
                   </div>
                   <div className="bottom-box">
-                    <ul className="list-style-three">
+                    <ul className="list-style-two">
                       <li>
-                        <i className="icon flaticon-solar-panels"></i> Powers
-                        fuel-cell vehicles <br /> with faster refueling & longer
+                      <i className="fa fa-arrow-alt-circle-right"></i>{" "}Powers
+                        fuel-cell vehicles with faster refueling & longer
                         range.
                       </li>
                       <li>
-                        <i className="icon flaticon-solar-panel-6"></i>Enables
-                        decarbonization <br /> in steel, cement & chemical
+                      <i className="fa fa-arrow-alt-circle-right"></i>{" "}Enables
+                        decarbonization in steel, cement & chemical
                         industries.
                       </li>
                       <li>
-                        <i className="icon flaticon-solar-energy-1"></i> Stores
-                        excess renewable <br /> energy for grid reliability.
+                      <i className="fa fa-arrow-alt-circle-right"></i>{" "} Stores
+                        excess renewable  energy for grid reliability.
                       </li>
                     </ul>
                   </div>

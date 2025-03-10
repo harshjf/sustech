@@ -10,7 +10,6 @@ export default function Footer1() {
         ></div>
         <div className="icon-turbines-7"></div>
 
-        {/* Widgets Section */}
         <div className="widgets-section">
           <div className="auto-container">
             <div className="row">
@@ -18,7 +17,14 @@ export default function Footer1() {
                 <div className="footer-widget newsletter-widget">
                   <div className="logo">
                     <img
-                      src="/images/logosustech.png"
+                      src="/images/footerlogo1.png"
+                      alt="Logo"
+                      title="Sustech"
+                    />
+                  </div>
+                  <div className="logo">
+                    <img
+                      src="/images/footerlogo2.png"
                       alt="Logo"
                       title="Sustech"
                     />

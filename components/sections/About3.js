@@ -2,7 +2,6 @@ const About3 = () => {
   return (
     <>
       <section className="about-section-four pt-0">
-        <div className="icon-bulb-3 bounce-y"></div>
         <div className="icon-dots"></div>
         <div className="auto-container">
           <div className="outer-box">
@@ -77,6 +76,17 @@ const About3 = () => {
                         <span className="text">Years of Experience</span>
                       </div>
                     </div> */}
+
+<div className="exp-box bounce-x">
+                    <div className="inner">
+                      <div className="content">
+                        {/* <div className="count">Innovative Solutions</div> */}
+                        <h6 className="title">Pioneering Sustainable Energy</h6>
+                      </div>
+                      <i className="icon fa fa-lightbulb"></i>
+                    </div>
+                  </div>
+                    
                   </div>
                 </div>
               </div>

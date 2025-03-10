@@ -61,7 +61,7 @@ const Form3 = () => {
   return (
     <>
       <section className="contact-section">
-        <div className="icon-bulb-3 bounce-y"></div>
+        {/* <div className="icon-bulb-3 bounce-y"></div> */}
         <div className="auto-container">
           <div className="outer-box">
             <div className="row">

@@ -15,15 +15,15 @@ const About2 = () => {
                     {/* <img src="/images/home/wind.png" alt="Image" /> */}
                   </figure>
 
-                  <div className="exp-box bounce-x">
+                  {/* <div className="exp-box bounce-x">
                     <div className="inner">
                       <div className="content">
-                        {/* <div className="count">Innovative Solutions</div> */}
+                        <div className="count">Innovative Solutions</div>
                         <h6 className="title">Pioneering Sustainable Energy</h6>
                       </div>
                       <i className="icon fa fa-lightbulb"></i>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
