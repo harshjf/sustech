@@ -570,7 +570,7 @@ li {
   background-repeat: no-repeat;
   -webkit-animation: fa-spin 10s infinite linear;
   animation: fa-spin 10s infinite linear;
-  background-image: url(../images/icons/preloader.png);
+  background-image: url(../images/icons/preloader1.png);
   content: "";
 }
 
