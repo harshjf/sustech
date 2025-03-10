@@ -15,7 +15,7 @@ const About = () => {
                     <span className="divider"></span>
                   </div>
                   <h2 className="title letters-slide-up text-split">
-                    Pioneers in Renewable Energy Solutions
+                    Pioneers in Sustainable Energy Solutions
                   </h2>
                   <div className="text">
                     Sustech Solutions is a pioneering sustainable technology
@@ -36,11 +36,6 @@ const About = () => {
                         <i className="fa fa-arrow-alt-circle-right"></i>{" "}
                         Harnesses the power of nature to generate clean,
                         reliable energy.
-                      </li>
-                      <li>
-                        <i className="fa fa-arrow-alt-circle-right"></i> A solar
-                        Supports global efforts to reduce carbon emissions and
-                        pollution.
                       </li>
                       <li>
                         <i className="fa fa-arrow-alt-circle-right"></i> Help
@@ -73,13 +68,13 @@ const About = () => {
                   <figure className="image overlay-anim">
                     <img src="/images/resource/about3-1.jpg" alt="Image" />
                   </figure>
-                  <figure
+                  {/* <figure
                     className="image-2 overlay-anim"
                     data-wow-delay="300ms"
                   >
                     <img src="/images/resource/about3-2.jpg" alt="Image" />
-                  </figure>
-                  <div className="exp-box bounce-x">
+                  </figure> */}
+                  {/* <div className="exp-box bounce-x">
                     <div className="inner">
                       <div className="content">
                         <div className="count">3800</div>
@@ -87,7 +82,7 @@ const About = () => {
                       </div>
                       <i className="icon fa fa-user"></i>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

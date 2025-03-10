@@ -125,8 +125,8 @@ const Contact = () => {
                     </div>
                     <div className="text">
                       <h6>Write email</h6>
-                      <a href="mailto:management@sustechsolutions.in">
-                        management@sustechsolutions.in
+                      <a href="mailto:management@sustechsolutions.ae">
+                        management@sustechsolutions.ae
                       </a>
                     </div>
                   </li>

@@ -76,15 +76,6 @@ const About33 = () => {
                         >
                           Vision
                         </li>
-                        <li
-                          className={
-                            activeIndex === 3 ? "tab-btn active-btn" : "tab-btn"
-                          }
-                          onClick={() => handleOnClick(3)}
-                          data-tab="#tab3"
-                        >
-                          Values
-                        </li>
                       </ul>
                     </div>
 
@@ -102,7 +93,7 @@ const About33 = () => {
                           <div className="content-box">
                             <div className="text two">
                               To nurture and develop hydrogen energy ecosystem
-                              by on demand offsite hydrogen production
+                              by on-demand onsite hydrogen production
                             </div>
                             {/*  <div className="text">
                               A leading voice in low-income solar policy and the
@@ -125,11 +116,10 @@ const About33 = () => {
                           </figure> */}
                           <div className="content-box">
                             <div className="text two">
-                              We are here to utilize the combined knowledge and
-                              skillset to accelerate the journey to net-zero by
-                              cooperating and collaborating with all
-                              stakeholders in the endeavour to create a
-                              sustainable future.
+                              To utilize the combined knowledge and skillset to
+                              accelerate the journey to net-zero by cooperating
+                              and collaborating with all stakeholders in the
+                              endeavour to create a sustainable future.
                             </div>
                             {/*  <div className="text">
                               A leading voice in low-income solar policy and the

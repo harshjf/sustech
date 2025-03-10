@@ -70,19 +70,21 @@ const Form3 = () => {
                   <div className="icon-dots"></div>
                   <div className="sec-title">
                     <div className="sub-title-outer">
-                      <span className="sub-title">we care about you</span>
+                      <span className="sub-title">
+                        we care about the planet
+                      </span>
                       <span className="divider"></span>
                     </div>
                     <h2 className="letters-slide-up text-split">
-                      Industry leading solar system provider
+                      Industry leading innovative hydrogen solutions
                     </h2>
                     <div className="text">
-                      A leading voice in low-income solar policy and the
-                      nation’s largest nonprofit solar installer, serving
-                      families <br /> throughout California
+                      A leading advocate for low-carbon hydrogen solutions and a
+                      pioneer in sustainable energy innovation, driving clean
+                      energy adoption for communities across the Globe.
                     </div>
                   </div>
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="contact-block col-lg-4 col-md-4 col-sm-4">
                       <div className="inner-box">
                         <i className="icon flaticon-solar-house-1"></i>
@@ -115,7 +117,7 @@ const Form3 = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="contact-info-block-two">
                     <figure className="image wow zoomIn">
@@ -139,7 +141,7 @@ const Form3 = () => {
                     data-wow-delay="300ms"
                   >
                     <form onSubmit={handleSubmit} id="contact-form">
-                      <h3 className="title text-center">Request A Quote</h3>
+                      <h3 className="title text-center">Get in touch</h3>
                       <div className="row">
                         {/* Name Input */}
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">

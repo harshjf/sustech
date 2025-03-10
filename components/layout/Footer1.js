@@ -17,13 +17,11 @@ export default function Footer1() {
               <div className="footer-column col-xl-4 col-lg-6 col-md-6 col-sm-12">
                 <div className="footer-widget newsletter-widget">
                   <div className="logo">
-                    <Link href="/">
-                      <img
-                        src="/images/logosustech.png"
-                        alt="Logo"
-                        title="Sustech"
-                      />
-                    </Link>
+                    <img
+                      src="/images/logosustech.png"
+                      alt="Logo"
+                      title="Sustech"
+                    />
                   </div>
                 </div>
               </div>
@@ -33,16 +31,14 @@ export default function Footer1() {
                   <div className="widget-content">
                     <ul className="contact-list-two light">
                       <li>
-                        <i className="fal fa-map-marker-alt"></i> FF-109,
-                        Samanvay westbreeze, <br />
-                        Alang House, T B Sanatorium,
-                        <br /> Vadodara - 390021
+                        <i className="fal fa-map-marker-alt"></i>KPLEX Coworking
+                        Solutions, Dr. Vikram Sarabhai Marg, Vadodara, Gujarat,
+                        India
                       </li>
                       <li>
-                        <i className="fal fa-map-marker-alt"></i> FF-109,
-                        Samanvay westbreeze, <br />
-                        Alang House, T B Sanatorium,
-                        <br /> Vadodara - 390021
+                        <i className="fal fa-map-marker-alt"></i>
+                        20733, Building A1, Dubai Digital Park,
+                        <br /> Dubai Silicon Oasis, United Arab Emirates
                       </li>
                       <li>
                         <i className="fal fa-phone"></i>{" "}
@@ -50,8 +46,8 @@ export default function Footer1() {
                       </li>
                       <li>
                         <i className="fal fa-envelope"></i>{" "}
-                        <Link href="mailto:management@sustechsolutions.in">
-                          management@sustechsolutions.in
+                        <Link href="mailto:management@sustechsolutions.ae">
+                          management@sustechsolutions.ae
                         </Link>
                       </li>
                     </ul>
