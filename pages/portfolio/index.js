@@ -41,9 +41,10 @@ export default function Home() {
                       </React.Fragment>
                     ))}
                   </p>
-                  <ul className="pro-bullet-list">
+                  <ul className="list-style-two">
                     {product.bullets.map((bullet, idx) => (
-                      <li key={idx} className="pro-bullet-item">
+                      <li key={idx}>
+                         <i className="fa fa-arrow-alt-circle-right"></i>{" "}
                         {bullet}
                       </li>
                     ))}

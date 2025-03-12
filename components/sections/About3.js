@@ -28,7 +28,7 @@ const About3 = () => {
                   </div>
                   <div className="icon-box">
                     <div className="content-box">
-                      <i className="icon flaticon-bulb"></i>
+                      {/* <i className="icon flaticon-bulb"></i> */}
                       <div className="text">
                         Sustech team has developed an innovative solution for
                         converting methanol to hydrogen at low temperatures,
