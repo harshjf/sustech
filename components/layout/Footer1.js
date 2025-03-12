@@ -61,47 +61,6 @@ export default function Footer1() {
                 </div>
               </div>
 
-              {/*  <div className="footer-column col-xl-2 col-lg-6 col-md-6 col-sm-12">
-                <div className="footer-widget links-widget">
-                  <h5 className="widget-title">Quick Links</h5>
-                  <div className="widget-content">
-                    <ul className="user-links">
-                      <li>
-                        <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/">Home</Link>
-                      </li>
-                      <li>
-                        <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/about-us">About Us</Link>
-                      </li>
-                      <li>
-                        <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/services">Our Services</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="footer-column col-xl-2 col-lg-6 col-md-6 col-sm-12">
-                <div className="footer-widget links-widget">
-                  <h5 className="widget-title"> </h5>
-                  <div className="widget-content">
-                    <ul className="user-links">
-                      <li>
-                        <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/our-team">Team</Link>
-                      </li>
-
-                      <li>
-                        <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="#">Contact Us</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div> */}
-
               {/* For Laptop Screens - Original Quick Links */}
               <div className="footer-column col-xl-2 col-lg-6 col-md-6 col-sm-12 original-quick-links">
                 <div className="footer-widget links-widget">
@@ -114,7 +73,7 @@ export default function Footer1() {
                       </li>
                       <li>
                         <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/services">Our Services</Link>
+                        <Link href="/portfolio">Portfolio</Link>
                       </li>
                     </ul>
                   </div>
@@ -132,7 +91,7 @@ export default function Footer1() {
                       </li>
                       <li>
                         <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/our-team">Our Team</Link>
+                        <Link href="/certifications">Certifications</Link>
                       </li>
                       <li>
                         <i className="icon fa fa-angle-right"></i>{" "}

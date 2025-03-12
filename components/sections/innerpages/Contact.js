@@ -100,11 +100,11 @@ const Contact = () => {
                   <span className="sub-title">Need any help?</span>
                   <h2>Get in touch with us</h2>
                   <div className="text">
-                    At SusTech Neo Energy, we're here to assist you with all
-                    your energy solutions. Whether you have inquiries about our
-                    services or want to explore how we can support your
-                    projects, feel free to reach out. Our team is ready to help
-                    you achieve sustainable energy goals. Contact us today!
+                    We're here to assist you with all your low carbon energy
+                    needs. Whether you have inquiries about our services or want
+                    to explore how we can support your projects, feel free to
+                    reach out. Our team is ready to help you achieve sustainable
+                    energy goals. Contact us today!
                   </div>
                 </div>
                 <ul className="list-unstyled contact-details__info">
@@ -114,9 +114,7 @@ const Contact = () => {
                     </div>
                     <div className="text">
                       <h6>Have any question?</h6>
-                      <a href="tel:9825935445">
-                        <span>Free</span> +91 98259 35445
-                      </a>
+                      <a href="tel:+919825935445">+91 98259 35445</a>
                     </div>
                   </li>
                   <li>
@@ -130,45 +128,12 @@ const Contact = () => {
                       </a>
                     </div>
                   </li>
-                  <li>
-                    <div className="icon">
-                      <span className="lnr-icon-location"></span>
-                    </div>
-                    <div className="text">
-                      <h6>Visit anytime</h6>
-                      <span>
-                        FF-109, Samanvay westbreeze, Alang House, T B
-                        Sanatorium, Vadodara - 390021
-                      </span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <span className="lnr-icon-location"></span>
-                    </div>
-                    <div className="text">
-                      {/* <h6>Visit anytime</h6> */}
-                      <span>
-                        FF-109, Samanvay westbreeze, Alang House, T B
-                        Sanatorium, Vadodara - 390021
-                      </span>
-                    </div>
-                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      {/* <section className="map-section">
-        <iframe
-          className="map w-100"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14763.990537187787!2d73.12823709775621!3d22.315929226786913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9a7042f6a7d%3A0xf2b5b8191b07d29d!2sSamanvay%20Westbreeze!5e0!3m2!1sen!2sin!4v1734949057711!5m2!1sen!2sin"
-          width="600"
-          height="450"
-        ></iframe>
-      </section> */}
     </>
   );
 };

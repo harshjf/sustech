@@ -30,20 +30,9 @@ const About33 = () => {
                       <span className="divider"></span>
                     </div>
                     <h2 className="letters-slide-up text-split">
-                      Savings for you, clean <br /> power for your life
+                      Low Carbon Energy for a Sustainable Planet
                     </h2>
-                    <div className="text">
-                      A leading voice in renewable energy sector{" "}
-                    </div>
                   </div>
-                  <ul className="list-style-four two-column">
-                    <li>
-                      <i className="fa fa-check-circle"></i>Full automation
-                    </li>
-                    <li>
-                      <i className="fa fa-check-circle"></i>Super Factory
-                    </li>
-                  </ul>
                 </div>
               </div>
 

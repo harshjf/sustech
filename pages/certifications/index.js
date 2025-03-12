@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1}>
-        <PageTitle pageName="Certificates" />
+        <PageTitle pageName="Certifications" />
         <section className="certificate-section">
           <div className="certificate-row">
             {images.map((image, index) => (
