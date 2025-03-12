@@ -33,7 +33,7 @@ export default function MobileMenu() {
           <Link href="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link href="/certificates">Certifications</Link>
+          <Link href="/certifications">Certifications</Link>
         </li>
         <li>
           <Link href="/contact-us">Contact</Link>
