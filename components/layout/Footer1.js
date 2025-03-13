@@ -115,7 +115,7 @@ export default function Footer1() {
                       </li>
                       <li>
                         <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/services">Our Services</Link>
+                        <Link href="/portfolio">Portfolio</Link>
                       </li>
                       <li>
                         <i className="icon fa fa-angle-right"></i>{" "}
@@ -123,11 +123,11 @@ export default function Footer1() {
                       </li>
                       <li>
                         <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/our-team">Team</Link>
+                        <Link href="/certifications">Certifications</Link>
                       </li>
                       <li>
                         <i className="icon fa fa-angle-right"></i>{" "}
-                        <Link href="/contact-us">Contact</Link>
+                        <Link href="/contact-us">Contact Us</Link>
                       </li>
                     </ul>
                   </div>
