@@ -27,6 +27,7 @@ export default function Footer1() {
                       src="/images/footerlogo2.png"
                       alt="Logo"
                       title="Sustech"
+                      style={{ height: "132.5px" }}
                     />
                   </div>
                 </div>
