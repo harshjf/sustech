@@ -37,7 +37,7 @@ export default function Layout({
   }, []);
   return (
     <>
-      <PageHead />
+      <PageHead headTitle={headTitle} />
       <div className="page-wrapper" id="top">
         {!headerStyle && (
           <Header1

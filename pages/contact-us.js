@@ -5,7 +5,11 @@ import Contact from "@/components/sections/innerpages/Contact";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1}>
+      <Layout
+        headerStyle={1}
+        footerStyle={1}
+        headTitle="Sustech Neo Energy | Contact Us"
+      >
         <PageTitle pageName="Contact Us" />
         <Contact />
       </Layout>

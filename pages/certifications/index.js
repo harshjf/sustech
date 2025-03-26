@@ -27,7 +27,11 @@ const images = [
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1}>
+      <Layout
+        headerStyle={1}
+        footerStyle={1}
+        headTitle="Sustech Neo Energy | Certifications"
+      >
         <PageTitle pageName="Certifications" />
         <section className="certificate-section">
           <div className="certificate-row">

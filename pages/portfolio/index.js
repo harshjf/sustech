@@ -7,7 +7,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1}>
+      <Layout
+        headerStyle={1}
+        footerStyle={1}
+        headTitle="Sustech Neo Energy | Portfolio"
+      >
         <PageTitle pageName="Our Portfolio" />
         {/* <ProjectGrid /> */}
         <div className="pro-container">
@@ -44,7 +48,7 @@ export default function Home() {
                   <ul className="list-style-two">
                     {product.bullets.map((bullet, idx) => (
                       <li key={idx}>
-                         <i className="fa fa-arrow-alt-circle-right"></i>{" "}
+                        <i className="fa fa-arrow-alt-circle-right"></i>{" "}
                         {bullet}
                       </li>
                     ))}
