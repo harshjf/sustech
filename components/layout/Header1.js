@@ -16,25 +16,6 @@ export default function Header1({
           isSearch ? "moblie-search-active" : ""
         }`}
       >
-        {/* Header lower */}
-        {/* <div className="header-lower">
-          <div className="main-box">
-            <div className="logo-box">
-              <div className="logo">
-                <Link href="/">
-                  <img src="/images/logo.png" alt="Logo" title="Sustech" />
-                </Link>
-              </div>
-            </div>
-
-            <div className="nav-outer">
-              <nav className="nav main-menu">
-                <Menu />
-              </nav>
-            </div>
-          </div>
-        </div> */}
-
         <div className="mobile-menu">
           <div className="menu-backdrop" onClick={handleMobileMenu} />
 
@@ -42,7 +23,7 @@ export default function Header1({
             <div className="upper-box">
               <div className="nav-logo">
                 <Link href="/">
-                  <img src="/images/sustech_header1.png" alt="" />
+                  <img src="/images/sustech_header1.png" alt="Sustech Logo" />
                 </Link>
               </div>
               <div className="close-btn" onClick={handleMobileMenu}>
@@ -87,7 +68,7 @@ export default function Header1({
               {/*Logo*/}
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/sustech_header1.png" alt="" />
+                  <img src="/images/sustech_header1.png" alt="Sustech Logo" />
                 </Link>
               </div>
               {/*Right Col*/}
