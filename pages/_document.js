@@ -52,6 +52,32 @@ export default function Document() {
           property="twitter:image"
           content="https://www.sustechgroup.com/social-preview.png"
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Sustech Solutions",
+              alternateName: "Sustech Group",
+              url: "https://www.sustechgroup.com",
+              logo: "https://www.sustechgroup.com/favicon.png",
+              description:
+                "Sustech Solutions is a sustainable technology firm specializing in Hydrogen Energy, M2H2, and A2H2 technologies. With global expertise, we lead the way in innovation for a greener future.",
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "India",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "Customer Support",
+                email: "management@sustechsolutions.ae",
+                url: "https://www.sustechgroup.com/contact-us",
+              },
+            }),
+          }}
+        />
       </Head>
       <body>
         <Main />
