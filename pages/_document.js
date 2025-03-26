@@ -11,11 +11,11 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Sustech Solutions is a forward-thinking sustainable technology firm with global experience across energy, mobility, finance, ecology, and innovation. Specializing in Hydrogen Energy, M2H2, and A2H2 technologies."
+          content="Sustech Solutions leads the way in Hydrogen Energy, M2H2, and A2H2 technologies, driving global innovation for a sustainable future."
         />
         <meta
           name="keywords"
-          content="Sustech Solutions, Sustainable Technology, Hydrogen Energy, M2H2, A2H2, Renewable Energy, Clean Tech, Energy Transition, Green Hydrogen"
+          content="Sustech Solutions, Sustech Neo Energy, Sustainable Technology, Hydrogen Energy, M2H2, A2H2, Renewable Energy, Clean Tech, Energy Transition, Green Hydrogen"
         />
         <meta name="author" content="Sustech Solutions" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@ export default function Document() {
         />
         <meta
           property="og:description"
-          content="Driving a sustainable future through Hydrogen Energy, M2H2, and A2H2. Explore our global expertise in sustainable innovation."
+          content="Sustech Solutions leads the way in Hydrogen Energy, M2H2, and A2H2 technologies, driving global innovation for a sustainable future."
         />
         <meta
           property="og:image"
@@ -46,7 +46,7 @@ export default function Document() {
         />
         <meta
           property="twitter:description"
-          content="Explore our advanced solutions in Hydrogen Energy, M2H2, and A2H2. Sustech Solutions is committed to a cleaner, greener world."
+          content="Sustech Solutions leads the way in Hydrogen Energy, M2H2, and A2H2 technologies, driving global innovation for a sustainable future."
         />
         <meta
           property="twitter:image"
