@@ -15,7 +15,7 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="Sustech Solutions, Sustech Neo Energy, Sustainable Technology, Hydrogen Energy, M2H2, A2H2, Renewable Energy, Clean Tech, Energy Transition, Green Hydrogen"
+          content="Sustech Solutions, Sustainable Technology, Hydrogen Energy, M2H2, A2H2, Renewable Energy, Clean Tech, Energy Transition, Green Hydrogen, Methanol, Ethanol, Ammonia, Sustainability, Off Grid Power, Hydrogen Refuelling Station, Green Steel, Low Carbon, Hydrogen Vehicles, Fuel Cells"
         />
         <meta name="author" content="Sustech Solutions" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -69,6 +69,18 @@ export default function Document() {
                 "@type": "PostalAddress",
                 addressCountry: "India",
               },
+              keywords: [
+                "Methanol",
+                "Ethanol",
+                "Ammonia",
+                "Sustainability",
+                "Off Grid Power",
+                "Hydrogen Refuelling Station",
+                "Green Steel",
+                "Low Carbon",
+                "Hydrogen Vehicles",
+                "Fuel Cells",
+              ],
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Customer Support",
