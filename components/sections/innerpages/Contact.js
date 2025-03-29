@@ -1,5 +1,58 @@
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
+import DialogTitle from "@mui/material/DialogTitle";
+import Button from "@mui/material/Button";
+
 const Contact = () => {
+  const [open, setOpen] = useState(false);
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      setOpen(true);
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        phone: "",
+        message: "",
+      });
+    } catch (err) {
+      console.error("Error sending message:", err);
+    }
+  };
+
+  const handleClose = () => setOpen(false);
+
   return (
     <>
       <section className="contact-details">
@@ -10,32 +63,31 @@ const Contact = () => {
                 <span className="sub-title">Send us email</span>
                 <h2>Feel free to write</h2>
               </div>
-              {/* Contact Form  */}
-              <form
-                id="contact_form"
-                name="contact_form"
-                className=""
-                action="includes/sendmail.php"
-                method="post"
-              >
+              <form onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-sm-6">
                     <div className="mb-3">
                       <input
-                        name="form_name"
+                        name="name"
                         className="form-control"
                         type="text"
                         placeholder="Enter Name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
                       />
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="mb-3">
                       <input
-                        name="form_email"
-                        className="form-control required email"
+                        name="email"
+                        className="form-control"
                         type="email"
                         placeholder="Enter Email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
                       />
                     </div>
                   </div>
@@ -44,55 +96,49 @@ const Contact = () => {
                   <div className="col-sm-6">
                     <div className="mb-3">
                       <input
-                        name="form_subject"
-                        className="form-control required"
+                        name="subject"
+                        className="form-control"
                         type="text"
                         placeholder="Enter Subject"
+                        value={formData.subject}
+                        onChange={handleChange}
+                        required
                       />
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="mb-3">
                       <input
-                        name="form_phone"
+                        name="phone"
                         className="form-control"
                         type="text"
                         placeholder="Enter Phone"
+                        value={formData.phone}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
                 </div>
                 <div className="mb-3">
                   <textarea
-                    name="form_message"
-                    className="form-control required"
+                    name="message"
+                    className="form-control"
                     rows="7"
                     placeholder="Enter Message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
                   ></textarea>
                 </div>
                 <div className="mb-5">
-                  <input
-                    name="form_botcheck"
-                    className="form-control"
-                    type="hidden"
-                    value=""
-                  />
                   <button
                     type="submit"
                     className="theme-btn btn-style-one me-2 mb-3 mb-sm-0"
-                    data-loading-text="Please wait..."
                   >
                     <span className="btn-title">Send message</span>
                   </button>
-                  <button
-                    type="reset"
-                    className="theme-btn btn-style-one bg-theme-color5"
-                  >
-                    <span className="btn-title">Reset</span>
-                  </button>
                 </div>
               </form>
-              {/* Contact Form Validation */}
             </div>
             <div className="col-xl-5 col-lg-6">
               <div className="contact-details__right">
@@ -133,8 +179,23 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+        <Dialog open={open} onClose={handleClose}>
+          <DialogTitle>Thank You!</DialogTitle>
+          <DialogContent>
+            <DialogContentText>
+              Your message has been received. We'll get back to you shortly.
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleClose} className="btn-primary">
+              OK
+            </Button>
+          </DialogActions>
+        </Dialog>
       </section>
     </>
   );
 };
+
 export default Contact;
