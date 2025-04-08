@@ -33,13 +33,13 @@ const About3 = () => {
                         Sustech team has developed an innovative solution for
                         converting methanol to hydrogen at low temperatures,
                         enabling on-demand hydrogen production directly at
-                        end-use sites. M2H2, a revolutionary patented
-                        technology. This game-changing approach provides green
-                        hydrogen for various applications, including off-grid
-                        power, EV charging, green steel, and hydrogen refuelling
-                        stations, with zero carbon footprint. This marks the
-                        beginning of a green and sustainable future for mankind
-                        and our planet.
+                        end-use sites. M2H2 Hydrogen Generator, a revolutionary
+                        patented technology. This game-changing approach
+                        provides green hydrogen for various applications,
+                        including off-grid power, EV charging, green steel, and
+                        hydrogen refuelling stations, with zero carbon
+                        footprint. This marks the beginning of a green and
+                        sustainable future for mankind and our planet.
                       </div>
                     </div>
                   </div>
@@ -77,16 +77,17 @@ const About3 = () => {
                       </div>
                     </div> */}
 
-<div className="exp-box bounce-x">
-                    <div className="inner">
-                      <div className="content">
-                        {/* <div className="count">Innovative Solutions</div> */}
-                        <h6 className="title">Pioneering Sustainable Energy</h6>
+                    <div className="exp-box bounce-x">
+                      <div className="inner">
+                        <div className="content">
+                          {/* <div className="count">Innovative Solutions</div> */}
+                          <h6 className="title">
+                            Pioneering Sustainable Energy
+                          </h6>
+                        </div>
+                        <i className="icon fa fa-lightbulb"></i>
                       </div>
-                      <i className="icon fa fa-lightbulb"></i>
                     </div>
-                  </div>
-                    
                   </div>
                 </div>
               </div>
