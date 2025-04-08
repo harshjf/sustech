@@ -137,16 +137,16 @@ const About33 = () => {
                               available at end use sites. Methanol gets
                               delivered in a container trailer to an end usage
                               site like hydrogen refueling stations used to
-                              refill hydrogen vehicles. M2H2 Hydrogen Generator
+                              refill hydrogen vehicles. M2H2® Hydrogen Generator
                               a revolutionary patented product by Sustech
                               Solutions team converts the methanol to hydrogen
                               at temperature not exceeding 130 degree celcius.
-                              If bio methanol is used, M2H2 Hydrogen Generator
+                              If bio methanol is used, M2H2® Hydrogen Generator
                               produces green hydrogen at an affordable price
                               right at the end usage site. The applications span
                               from off-grid power, EV charging, green steel,
                               hydrogen refueling stations and much more with
-                              zero carbon footprint. M2H2 Hydrogen Generator
+                              zero carbon footprint. M2H2® Hydrogen Generator
                               solves the difficult challenge of storage and
                               transport of green hydrogen by producing green
                               hydrogen from methanol directly at the site of end

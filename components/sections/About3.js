@@ -33,7 +33,7 @@ const About3 = () => {
                         Sustech team has developed an innovative solution for
                         converting methanol to hydrogen at low temperatures,
                         enabling on-demand hydrogen production directly at
-                        end-use sites. M2H2 Hydrogen Generator, a revolutionary
+                        end-use sites. M2H2® Hydrogen Generator, a revolutionary
                         patented technology. This game-changing approach
                         provides green hydrogen for various applications,
                         including off-grid power, EV charging, green steel, and
